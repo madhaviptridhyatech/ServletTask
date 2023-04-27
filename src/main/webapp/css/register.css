@@ -1,0 +1,60 @@
+.gradient-custom {
+/* fallback for old browsers */
+background: #f093fb;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1));
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1))
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+font-size: 1rem;
+line-height: 2.15;
+padding-left: .75em;
+padding-right: .75em;
+}
+.card-registration .select-arrow {
+top: 13px;
+}
+
+.color{
+	background-color:grey;
+}
+
+.button{
+	left-padding:50px;
+}
+
+.formContainer {
+  box-shadow : 4px 8px 16px #d7d7d7;
+  margin:15vh auto;
+  padding:20px;
+  border-radius:0px 0px 4px 4px;
+}
+input {
+  box-shadow:none !important;
+  outline:none;
+}
+#formHeading {
+  background:#6391cd;
+  margin:-20px -20px 0px -20px;
+  border-radius:4px 4px 0px 0px
+}
+.loginWithIcon {
+  font-size:14px;
+  height:32px;
+  width:32px;
+  background:#6391cd;
+  margin:8px;
+  line-height:32px;
+  display:inline-block;
+  border-radius:32px;
+  text-align:center;
+  color:#fff
+}
+#loginWithPanel {
+  background:#d8e8fd;
+  margin:auto -20px;
+}
